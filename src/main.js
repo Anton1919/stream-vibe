@@ -1,1 +1,3 @@
-console.log("Привет!")
+import OverlayMenu from "@/OverlayMenu.js"
+
+new OverlayMenu()
