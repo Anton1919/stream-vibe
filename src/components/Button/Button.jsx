@@ -21,6 +21,7 @@ const Button = (props) => {
      */
     iconPosition = "before",
     hasFillIcon,
+    extraAttrs,
   } = props
 
   const isLink = href !== undefined
@@ -35,6 +36,7 @@ const Button = (props) => {
 
   return (
     <Component
+      {...extraAttrs}
       className={classNames(className, "button", {
         [`button--${mode}`]: mode,
       })}
