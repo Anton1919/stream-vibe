@@ -3,56 +3,9 @@ import Section from "@/layouts/Section"
 import CategoryCard from "@/components/CategoryCard"
 import Slider from "@/components/Slider"
 import SliderNavigation from "@/components/Slider/SliderNavigation"
+import categoryItems from "./categories.js"
 
 const Categories = () => {
-  const categoryItems = [
-    {
-      title: "Action",
-      images: [
-        "src/assets/categories/image.jpg",
-        "src/assets/categories/image-1.jpg",
-        "src/assets/categories/image-2.jpg",
-        "src/assets/categories/image-3.jpg",
-      ],
-    },
-    {
-      title: "Adventure",
-      images: [
-        "src/assets/categories/image-4.jpg",
-        "src/assets/categories/image-5.jpg",
-        "src/assets/categories/image-6.jpg",
-        "src/assets/categories/image-7.jpg",
-      ],
-    },
-    {
-      title: "Comedy",
-      images: [
-        "src/assets/categories/image.jpg",
-        "src/assets/categories/image-1.jpg",
-        "src/assets/categories/image-2.jpg",
-        "src/assets/categories/image-3.jpg",
-      ],
-    },
-    {
-      title: "Drama",
-      images: [
-        "src/assets/categories/image-4.jpg",
-        "src/assets/categories/image-5.jpg",
-        "src/assets/categories/image-6.jpg",
-        "src/assets/categories/image-7.jpg",
-      ],
-    },
-    {
-      title: "Horror",
-      images: [
-        "src/assets/categories/image-4.jpg",
-        "src/assets/categories/image-5.jpg",
-        "src/assets/categories/image-6.jpg",
-        "src/assets/categories/image-7.jpg",
-      ],
-    },
-  ]
-
   const sliderNavigationId = "categories-slider-navigation"
 
   return (
